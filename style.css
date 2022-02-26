@@ -1,5 +1,40 @@
- .header{
-     background-color:rgb(50, 167, 145);
-     display: flex;
-     
- }
+.header {
+  background-color: rgb(50, 167, 145);
+  display: flex;
+}
+
+.trybewarts-login {
+  display: flex;
+  align-items: flex-end;
+  margin-left: auto;
+  margin-right: 20 px;
+}
+
+/* REQUISITO 06 */
+#evaluation-form {
+  display: flex;
+  width: 675px;
+  flex-direction: column;
+}
+
+.evaluation {
+  display: inline-block;
+  max-width: 400px;
+  padding-top: 50px;
+}
+
+#trybewarts-forms-logo {
+  height: 500px;
+  position: absolute;
+  padding-left: 60%;
+}
+
+#label-family {
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+main {
+  display: flex;
+  margin-left: 50px;
+}
