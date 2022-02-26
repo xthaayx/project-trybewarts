@@ -45,12 +45,6 @@ main {
   align-items: baseline;
 }
 
-#everybody {
-  display: flex;
-  flex-direction: column;
-  align-items: baseline;
-}
-
 /* REQUISITO 10  E 11 */
 #d2 {
   display: inline-block;
@@ -91,4 +85,9 @@ footer {
   background-color: rgb(52, 58, 64);
   text-align: center;
   color: white;
+}
+
+
+.everybody {
+  display: inline-block;
 }
