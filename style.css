@@ -54,3 +54,29 @@ main {
   display: inline-block;
   height: 50px;
 }
+
+.container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.container-column-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 200px;
+  margin-top: -25px;
+}
+
+.container-column-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-top: -6px;
+}
+
+.container-column-2 div {
+  display: flex;
+  width: 70%;
+  align-items: center;
+  justify-content: space-between;
