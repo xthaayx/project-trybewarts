@@ -24,9 +24,10 @@
 }
 
 #trybewarts-forms-logo {
-  height: 500px;
-  position: absolute;
-  padding-left: 60%;
+ height: 500px;
+ position: absolute;
+ padding-left: 750px;
+ margin-top: -400px;
 }
 
 #label-family {
