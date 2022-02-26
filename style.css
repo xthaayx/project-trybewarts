@@ -49,3 +49,8 @@ main {
   flex-direction: column;
   align-items: baseline;
 }
+/*REQUISITO 10 */
+#d2{
+  display: inline-block;
+  height: 50px;
+}
