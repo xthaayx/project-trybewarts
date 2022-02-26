@@ -30,111 +30,81 @@
 
    </header>
    <main>
-    <div id="everybody">
-        <div id="forms"> 
-            <!-- REQUISITO 05 -->
-            <form action="" id="evaluation-form">
-                <!-- RAMONA ADC AQUI -->
-                <!--REQUISITO 8-->
-                <h2 id="title-form">Formulário de avaliação</h2>
-                <div class="d2">
-                    <input
-                        type="text"
-                        placeholder="Nome"
-                        name="texto"
-                        id="input-name"
-                        class="nome"
-                    />
-                    <input
-                        type="text"
-                        placeholder="Sobrenome"
-                        name="texto"
-                        id="input-lastname"
-                        class="nome"
-                    />
-                </div>
-                <div class="d2">
-                    <input
-                        type="text"
-                        placeholder="Email"
-                        name="texto"
-                        id="input-email"
-                    />
-                  
-                    <!--REQUISITO 9-->
-                    <label for="house" >Casa
-                    <select name="casa" id="house">
-                        <option value="Gitnória" id="gitnoria-house">Gitnória</option>
-                        <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
-                        <option value="Corvinode" id="corvinode-house">Corvinode</option>
-                        <option value="Pytherina" id="pytherina-house">Pytherina</option>
-                    </select>
-                    </label>
-                </div>
-                    <!--REQUISITO 12-->
-                <hr />
-                <div class="container-row">
-                  <div class="container-column-1">
-                    <label for="label-family">
-                      <p id="label-family">Qual sua família?</p>
-                    </label>
-                    <label for="Frontend">
-                      <input
-                        type="radio"
-                        name="family"
-                        value="Frontend"
-                        id="Frontend"
-                      />
-                      Família Frontend</label
-                    >
-                    <label for="Backend">
-                      <input type="radio" name="family" value="Backend" id="Backend" />
-                      Família Backend
-                    </label>
-                    <label for="FullStack">
-                      <input
-                        type="radio"
-                        name="family"
-                        value="FullStack"
-                        id="FullStack"
-                      />
-                      Família FullStack
-                    </label>
-                  </div>
-                  <!--REQUISITO 13-->
-                  <div class="container-column-2">
-                    <label for="label-content">
-                      <p id="label-content">
-                        Qual conteúdo você está com mais vontade de aprender?
-                      </p>
-                    </label>
-                    <div>
-                      <label for="HoFs">
-                        <input type="checkbox" value="HoFs" id="HoFs" class="subject"/> HoFs
-                      </label>
-                      <label for="Jest"
-                        ><input type="checkbox" value="Jest" id="Jest" class="subject"/> Jest
-                      </label>
-                      <label for="Promises">
-                        <input type="checkbox" value="Promises" id="Promises" class="subject"/>
-                        Promises
-                      </label>
-                    </div>
-                    <div>
-                      <label for="React">
-                        <input type="checkbox" value="React" id="React" class="subject"/> React
-                      </label>
-                      <label for="SQL">
-                        <input type="checkbox" value="SQL" id="SQL" class="subject"/> SQL
-                      </label>
-                      <label for="Python">
-                        <input type="checkbox" value="Python" id="Python" class="subject"/> Python
-                      </label>
-                    </div>
-                  </div>
-                </div>
-                <hr />
+     <div id="everybody">
+       <div id="forms">
+         <!-- REQUISITO 05 -->
+         <form action="" id="evaluation-form">
+           <!-- RAMONA ADC AQUI -->
+           <!--REQUISITO 8-->
+           <h2 id="title-form">Formulário de avaliação</h2>
+           <div class="d2">
+             <input type="text" placeholder="Nome" name="texto" id="input-name" class="nome" />
+             <input type="text" placeholder="Sobrenome" name="texto" id="input-lastname" class="nome" />
+           </div>
+           <div class="d2">
+             <input type="text" placeholder="Email" name="texto" id="input-email" />
 
+             <!--REQUISITO 9-->
+             <label for="house">Casa
+               <select name="casa" id="house">
+                 <option value="Gitnória" id="gitnoria-house">Gitnória</option>
+                 <option value="Reactpuff" id="reactpuff-house">Reactpuff</option>
+                 <option value="Corvinode" id="corvinode-house">Corvinode</option>
+                 <option value="Pytherina" id="pytherina-house">Pytherina</option>
+               </select>
+             </label>
+           </div>
+           <!--REQUISITO 12-->
+           <hr />
+           <div class="container-row">
+             <div class="container-column-1">
+               <label for="label-family">
+                 <p id="label-family">Qual sua família?</p>
+               </label>
+               <label for="Frontend">
+                 <input type="radio" name="family" value="Frontend" id="Frontend" />
+                 Família Frontend</label>
+               <label for="Backend">
+                 <input type="radio" name="family" value="Backend" id="Backend" />
+                 Família Backend
+               </label>
+               <label for="FullStack">
+                 <input type="radio" name="family" value="FullStack" id="FullStack" />
+                 Família FullStack
+               </label>
+             </div>
+             <!--REQUISITO 13-->
+             <div class="container-column-2">
+               <label for="label-content">
+                 <p id="label-content">
+                   Qual conteúdo você está com mais vontade de aprender?
+                 </p>
+               </label>
+               <div>
+                 <label for="HoFs">
+                   <input type="checkbox" value="HoFs" id="HoFs" class="subject" /> HoFs
+                 </label>
+                 <label for="Jest"><input type="checkbox" value="Jest" id="Jest" class="subject" /> Jest
+                 </label>
+                 <label for="Promises">
+                   <input type="checkbox" value="Promises" id="Promises" class="subject" />
+                   Promises
+                 </label>
+               </div>
+               <div>
+                 <label for="React">
+                   <input type="checkbox" value="React" id="React" class="subject" /> React
+                 </label>
+                 <label for="SQL">
+                   <input type="checkbox" value="SQL" id="SQL" class="subject" /> SQL
+                 </label>
+                 <label for="Python">
+                   <input type="checkbox" value="Python" id="Python" class="subject" /> Python
+                 </label>
+               </div>
+             </div>
+           </div>
+           <hr />
 
                 <!-- REQUISITO 14 -->
             <div class="radio-button">
@@ -194,6 +164,8 @@
                 <img src="images/trybewarts-colored.svg" alt="" id="trybewarts-forms-logo">
         </div>
     </div>
+       </div>
+     </div>
    </main>
     <!-- REQUISITO 19 -->
    <footer>Direitos reservados à Trybewarts©</footer>
