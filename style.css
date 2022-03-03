@@ -25,9 +25,6 @@
 
 #trybewarts-forms-logo {
   height: 500px;
-  position: absolute;
-  padding-left: 750px;
-  margin-top: -400px;
 }
 
 #label-family {
@@ -87,7 +84,6 @@ footer {
   color: white;
 }
 
-
 .everybody {
-  display: inline-block;
+  display: flex;
 }
