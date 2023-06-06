@@ -10,7 +10,6 @@
   margin-right: 20 px;
 }
 
-/* REQUISITO 06 */
 #evaluation-form {
   display: flex;
   width: 675px;
@@ -21,6 +20,10 @@
   display: inline-block;
   max-width: 400px;
   padding-top: 50px;
+}
+
+.trybewarts-header-logo {
+  height: 70px;
 }
 
 #trybewarts-forms-logo {
@@ -42,7 +45,6 @@ main {
   align-items: baseline;
 }
 
-/* REQUISITO 10  E 11 */
 #d2 {
   display: inline-block;
   height: 50px;
@@ -87,3 +89,4 @@ footer {
 .everybody {
   display: flex;
 }
+
